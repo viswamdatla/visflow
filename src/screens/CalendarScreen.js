@@ -102,7 +102,7 @@ const CalendarScreen = () => {
         <View style={styles.topHeader}>
            <View style={styles.topHeaderLeft}>
              <Image source={{ uri: 'https://i.pravatar.cc/150?u=julian' }} style={styles.avatar} />
-             <Text style={styles.lifeOsTitle}>vishflow</Text>
+             <Text style={styles.vishflowTitle}>vishflow</Text>
            </View>
            <TouchableOpacity style={styles.settingsIcon}>
              <Ionicons name="settings-sharp" size={20} color={theme.colors.text} />
@@ -404,7 +404,7 @@ const styles = StyleSheet.create({
     borderRadius: 6,
     marginRight: 15,
   },
-  lifeOsTitle: {
+  vishflowTitle: {
     fontFamily: theme.fonts.sansSemiBold,
     fontSize: 18,
     color: theme.colors.text,

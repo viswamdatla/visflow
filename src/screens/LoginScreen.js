@@ -65,7 +65,7 @@ export default function LoginScreen() {
               <Text style={styles.label}>EMAIL ADDRESS</Text>
               <TextInput
                 style={styles.input}
-                placeholder="curator@lifeos.com"
+                placeholder="curator@vishflow.com"
                 placeholderTextColor="#ccc"
                 value={email}
                 onChangeText={setEmail}
