@@ -11,9 +11,5 @@ yarn-error.log*
 *.mobileprovision
 *.orig.*
 .firebase/
-firestore.rules
-firestore.indexes.json
-.firebaserc
 firebase-debug.log
 .DS_Store
-node_modules
