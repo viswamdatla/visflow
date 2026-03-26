@@ -50,7 +50,7 @@ export default function LoginScreen() {
       >
         <ScrollView contentContainerStyle={styles.scrollContent}>
           <View style={styles.header}>
-            <Text style={styles.logo}>Life OS</Text>
+            <Text style={styles.logo}>vishflow</Text>
             <View style={styles.titleContainer}>
               <Text style={styles.title}>{isSignUp ? 'Sign up' : 'Log in'} <Text style={styles.titleItalic}>to your</Text></Text>
               <Text style={styles.titleLarge}>dashboard</Text>
@@ -132,13 +132,13 @@ export default function LoginScreen() {
           <View style={styles.footer}>
             <TouchableOpacity onPress={() => setIsSignUp(!isSignUp)}>
               <Text style={styles.footerText}>
-                {isSignUp ? 'Already have an account? ' : 'New to Life OS? '}
+                {isSignUp ? 'Already have an account? ' : 'New to vishflow? '}
                 <Text style={styles.linkText}>{isSignUp ? 'Log in' : 'Create an account'}</Text>
               </Text>
             </TouchableOpacity>
             
             <View style={styles.legalLinks}>
-              <Text style={styles.legalText}>© 2024 LIFE OS CURATOR ECOSYSTEM. ALL RIGHTS RESERVED.</Text>
+              <Text style={styles.legalText}>© 2024 VISHFLOW CURATOR ECOSYSTEM. ALL RIGHTS RESERVED.</Text>
               <View style={styles.legalRow}>
                 <TouchableOpacity><Text style={styles.legalLink}>PRIVACY POLICY</Text></TouchableOpacity>
                 <TouchableOpacity><Text style={styles.legalLink}>TERMS OF SERVICE</Text></TouchableOpacity>
