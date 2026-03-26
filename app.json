@@ -15,7 +15,8 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.viswam.vishflow",
       "infoPlist": {
-        "NSCameraUsageDescription": "This app needs access to your camera."
+        "NSCameraUsageDescription": "This app needs access to your camera.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
@@ -31,6 +32,11 @@
     "plugins": [
       "expo-font",
       "expo-asset"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8ecd983f-1f73-4a1e-8155-aea3a0d68af8"
+      }
+    }
   }
 }
